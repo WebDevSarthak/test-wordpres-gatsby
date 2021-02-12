@@ -26,12 +26,12 @@ module.exports = {
       resolve: `gatsby-source-wordpress`,
       options: {
         // the only required plugin option for WordPress is the GraphQL url.
-        url:
-          process.env.WPGRAPHQL_URL ||
-          `https://wpgatsbydemo.wpengine.com/graphql`,
+        url: `http://localhost/test-final/graphql`,
       },
     },
 
+    /*http://localhost/test-final/ */   
+    /* url: `https://yoursite.com/graphql`,*/
     /**
      * We need this plugin so that it adds the "File.publicURL" to our site
      * It will allow us to access static url's for assets like PDF's
