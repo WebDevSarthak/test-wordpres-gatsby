@@ -1,0 +1,23 @@
+/*support area*/
+.support_area{
+	background-color: var(--blue);
+	padding-bottom: 30px;
+}
+.support_area .media i{
+	font-size: 37px;
+	color: #ffffff;
+	margin-right: 55px;
+}
+.support_area .media h5 a{
+	font-size: 30px;
+	font-weight: 400;
+	color: #ffffff;
+	line-height: 1.2;
+}
+.support_area .media p{
+	font-size: 15px;
+	font-weight: 400;
+	color: #ffffff;
+	line-height: 1.1;
+	letter-spacing: 0;
+}

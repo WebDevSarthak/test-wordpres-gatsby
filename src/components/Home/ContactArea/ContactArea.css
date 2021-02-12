@@ -1,0 +1,52 @@
+/* CONTACT AREA */
+
+.contact_area{
+	background-color: var(--grey-bg);
+	padding-bottom: 30px;
+	padding-top: 4px;
+}
+.contact_area h2{
+	font-size: 40px;
+	color: #000;
+	font-family: var(--oswalad-font);
+	letter-spacing: 0;
+	font-weight: 600;
+	line-height: 1.2;
+}
+.contact_area i{
+	font-size: 50px;
+	color: #000000;
+}
+.contact_area h3{
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.contact_area h3,
+.contact_area h3 a{
+	font-size: 30px;
+	color: #000;
+	font-family: var(--oswalad-font);
+	letter-spacing: 0;
+	font-weight: 600;
+	line-height: 1.4;
+}
+.contact_area p{
+	font-size: 15px;
+	color: #7a7a7a;
+	line-height: 1.6;
+	font-weight: 400;
+}
+
+.fa, .fas {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+}
+.fa, .fab, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}

@@ -1,0 +1,73 @@
+/*practise area*/
+
+.practise_area{
+	background-size: cover;
+	background-position: center;
+	padding: 150px 0;
+	position: relative;
+}
+.practise_area::before{
+	position: absolute;
+	content: '';
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background-color: rgba(0,0,0,0.45);
+}
+.practise_area h5{
+	color: #FFFFFF;
+	font-size: 27px;
+	font-weight: 700;
+	line-height: 35px;
+	letter-spacing: 2px;
+}
+.practise_area .link{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 7px;
+	color: #ffffff !important;
+	border-color: #ffffff;
+}
+.practise_area .link:hover{
+	background-color: #ffffff;
+	color: #000000 !important;
+}
+/* link */
+.link {
+	font-size: 17px;
+	font-weight: 700;
+	color: var(--blue) !important;
+	background-color: rgba(2, 1, 1, 0);
+	border-bottom: 4px solid var(--blue);
+	padding: 10px 0px 6px 0px;
+	display: inline-block;
+	line-height: 1;
+}
+
+.title {
+	color: #000000;
+	font-family: "Oswald", Sans-serif;
+	font-size: 60px;
+	font-weight: 500;
+	text-transform: uppercase;
+	line-height: 1;
+	position: relative;
+	padding-bottom: 30px;
+	display: inline-block;
+}
+.title::before{
+	position: absolute;
+	content: '';
+	bottom: 0;
+	width: 25%;
+	left: 0;
+	height: 5px;
+	background-color: var(--blue);
+}
+.text-center .title::before{
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}

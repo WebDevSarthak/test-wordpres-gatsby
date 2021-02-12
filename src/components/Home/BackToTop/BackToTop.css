@@ -1,0 +1,18 @@
+/*return-to-top START CSS*/
+.back-to-top {
+	font-size: 24px;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	display: none;
+	position: fixed;
+	bottom: 30px;
+	right: 20px;
+	border-radius: 50%;
+	background: var(--blue);
+	z-index: 1000;
+}
+.back-to-top i {
+	color: #fff;
+}

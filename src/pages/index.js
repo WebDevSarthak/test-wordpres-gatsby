@@ -1,51 +1,15 @@
 import React from "react"
 import { Link } from "gatsby"
+import Layout from "../components/layout"
+import Home from '../components/Home'
 
-export default function Home() {
+
+export default function Index() {
   return (
-    <div>
-        
-    </div>
+      <Layout>
+        <div>
+            <Home />
+        </div>
+      </Layout>
   )
 }
-
-
-{/* <div style={{ margin: `3rem auto`, maxWidth: 500 }}>
-      <h1>Hi! I'm building a fake Gatsby site as part of a tutorial!</h1>
-      <p>
-        What do I like to do? Lots of course but definitely enjoy building
-        websites.
-      </p>
-      <Link to="/about/">Go to About Page</Link>
-      <br />
-      <a href="https://example.com" target="_blank" rel="noopener noreferrer">
-        External link
-      </a>
-// import React from "react"
-
-// export default function Home() { */}
-//   return (
-//     <div>
-//       import React from "react"
-
-// export default function Home() {
-//   return (
-//     <div>
-//       <a href="https://example.com" target="_blank" rel="noopener noreferrer">
-//         External link
-//       </a>
-//     </div>
-//   )
-// }    </div>
-//   )
-// }
-// import React from "react"
-// import { Link } from "gatsby"
-
-// export default function Home() {
-//   return (
-//     <div>
-//       <Link to="/contact/">Contact</Link>
-//     </div>
-//   )
-// }

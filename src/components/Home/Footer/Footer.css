@@ -1,0 +1,25 @@
+footer{
+	background-color: #000000;
+	padding: 30px 0 57px;
+}
+footer h5{
+	color: #FFFFFF;
+	font-size: 17px;
+	font-weight: 600;
+	letter-spacing: 0;
+	margin-bottom: 20px;
+}
+footer a,
+footer p{
+	color: #A8A5A5;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 1.4;
+	letter-spacing: 0;
+	display: block;
+	margin-bottom: 3px;
+	max-width: 250px;
+}
+footer a:hover{
+	color: var(--blue);
+}
