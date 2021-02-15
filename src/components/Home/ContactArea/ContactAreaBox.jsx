@@ -2,7 +2,6 @@ import React from 'react'
 
 function ContactAreaBox(props) {
 
-    console.log(props)
     return (
         
             <div className="col-lg-3 col-md-4 mt_30 text-center">

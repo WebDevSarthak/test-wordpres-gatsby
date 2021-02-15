@@ -5,11 +5,12 @@ import './BackToTop.css'
 
 function BackToTop(){
     return(
-        <div>
-            <a href="#" className="back-to-top"><i className="fal fa-angle-up"></i></a>
-        </div>
+            <a href="#" className="back-to-top" style={{display: "inline"}}>
+                <i className="fal fa-angle-up"></i>
+            </a>
     )
-
 }
 
 export default BackToTop
+
+{/* <a href="#" class="back-to-top" style="display: inline;"><i class="fal fa-angle-up"></i></a> */}

@@ -5,20 +5,17 @@ import FooterBox from './FooterBox'
 function Footer(){
 
     return(
-        <div>
             <footer>
                 <div class="container">
                     <div class="row">
                         <div class="col-md-3 mt_30">
                             <FooterBox heading="Services" textOne="Urban Planning" textTwo="Strategic Planning" textThree="Project Management" textFour="Pre-development" textFive="Government Liaison" />
-                        
                         </div>
                         <div class="col-lg-3 col-md-2 mt_30">
                         <FooterBox heading="Sectors" textOne="Residential" textTwo="Commercial" textThree="Government" textFour="Tourism" textFive="Health" />
                         </div>
                         <div class="col-md-3 mt_30">
-                            <FooterBox heading="Precise Planning" textOne="Careers" textTwo="Media Enquiries" textThree="Privacy" textFour="Disclaimers" textFive="Make a Payment" />
-                           
+                            <FooterBox heading="Precise Planning" textOne="Careers" textTwo="Media Enquiries" textThree="Privacy" textFour="Disclaimers" textFive="Make a Payment" />                           
                         </div>
                         <div class="col-lg-3 col-md-4 mt_30">
                             <h5>Connect with Precise Planning</h5>
@@ -33,9 +30,7 @@ function Footer(){
                     </div>
                 </div>
             </footer>
-        </div>
     )
 }
 
 export default Footer
-

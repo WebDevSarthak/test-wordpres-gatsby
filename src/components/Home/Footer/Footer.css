@@ -2,6 +2,7 @@ footer{
 	background-color: #000000;
 	padding: 30px 0 57px;
 }
+
 footer h5{
 	color: #FFFFFF;
 	font-size: 17px;
@@ -9,6 +10,7 @@ footer h5{
 	letter-spacing: 0;
 	margin-bottom: 20px;
 }
+
 footer a,
 footer p{
 	color: #A8A5A5;
@@ -20,6 +22,16 @@ footer p{
 	margin-bottom: 3px;
 	max-width: 250px;
 }
+
 footer a:hover{
 	color: var(--blue);
+}
+
+.email{
+	text-decoration: underline;
+}
+.phone {
+    color: #4169E1;
+    font-size: 18px;
+    font-weight: 700;
 }

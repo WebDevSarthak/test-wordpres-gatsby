@@ -9,6 +9,7 @@ import ContactArea from '../components/Home/ContactArea/ContactArea'
 import ContentArea from '../components/Development/ContentArea/ContentArea'
 import ContactForm from '../components/Development/ContactForm/ContactForm'
 import PracticeArea from '../components/Home/PracticeArea/PracticeArea'
+import BackToTop from "../components/Home/BackToTop/BackToTop"
 import Footer from '../components/Home/Footer/Footer'
 import '../components/responsive.css'
 
@@ -22,6 +23,7 @@ function Development(){
             <ContentArea />
             <ContactForm />
             <PracticeArea />
+            <BackToTop />
             <Footer />
         </Layout>   
     )

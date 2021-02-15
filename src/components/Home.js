@@ -18,7 +18,6 @@ import '../components/responsive.css'
 
 function Home(){
     return(
-        
         <div>
             <body>
                 <Header />
