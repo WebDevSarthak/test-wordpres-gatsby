@@ -2,15 +2,13 @@ import React from 'react'
 import { withPrefix, Link } from "gatsby"
 import Logo from '../../../assets/img/logo.png'
 import './Header.css'
-import HeaderMenu from './HeaderMenu'
-
 
 function Header(props) {
-
-    const toggleClass = ()=>{
-        document.getElementById("home").classList.remove("active")
-        document.getElementById("develop").classList.add("active") 
+    
+    const isActive = ({ isCurrent }) => {
+        return isCurrent ? { className: "active" } : {}
     }
+
     return (
         <div>
             <header class="d-flex align-items-center sticky">
@@ -25,25 +23,24 @@ function Header(props) {
             
                         </div>
                             <div class="col-lg-9 col-4">
-                                <div class="d-flex align-items-center mt_20">
-
-                                  
+                                <div class="d-flex align-items-center mt_20">               
                                     <ul id="menu">
                                         <li class="nav-item">
-                                            <a id="home" href="/#" class="nav-link active">Home</a>
-                                        </li>
-                                        
-                                        <li class="nav-item">
-                                            <a href="development-application.html" id="develop" onClick={()=>{
-        document.getElementById("home").classList.remove("active")
-        document.getElementById("develop").classList.add("active")} } class="nav-link"><Link to="/Development/" activeClassName="active">Development Application</Link></a>
-                                        </li>
-                                        
-                                        <HeaderMenu href="/#" class="nav-link" text="Subdivisions" />
-                                        <HeaderMenu href="/#" class="nav-link" text="Rezonings" />
-                                        <HeaderMenu href="/#" class="nav-link" text="Contact" />
-                                      
-                                    </ul>
+                                                <Link to="/"  activeClassName="nav-link active" getProps={isActive} {...props} >Home</Link>
+                                            </li>                                        
+                                            <li class="nav-item">
+                                                <Link to="/Development/" activeClassName="nav-link active" getProps={isActive} {...props}>Development Application</Link>
+                                            </li>
+                                            <li class="nav-item">
+                                                <Link to="/SubDivisions/"  activeClassName="nav-link active" getProps={isActive} {...props}>SubDivisions</Link>
+                                            </li> 
+                                            <li class="nav-item">
+                                                <Link to="/Rezonings/"  activeClassName="nav-link active" getProps={isActive} {...props}>Rezoning</Link>
+                                            </li>
+                                            <li class="nav-item">
+                                                <Link to="/Contact/"  activeClassName="nav-link active" getProps={isActive} {...props}>Contact</Link>
+                                            </li> 
+                                        </ul>
                                     <h2 class="d-none d-lg-block"><a href="tel:1300438232">1300 438 232 (24 hours)</a></h2>
                                 </div>
                                 {/* <!-- menu toggler --> */}

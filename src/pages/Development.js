@@ -13,13 +13,6 @@ import Footer from '../components/Home/Footer/Footer'
 import '../components/responsive.css'
 
 function Development(){
-
-    (function () {
-        
-        document.getElementById("home").classList.remove("active")
-        document.getElementById("develop").classList.add("active") 
-    })();
-
     return (
         <Layout>
             <Header />

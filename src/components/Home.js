@@ -1,7 +1,6 @@
 import React from 'react'
 import '../components/helper.css'
 import '../components/style.css'
-import Preloader from './Home/Preloader/Preloader'
 import Header from './Home/Header/Header'
 import HomeArea from './Home/HomeArea/HomeArea'
 import ContactArea from './Home/ContactArea/ContactArea'
@@ -22,7 +21,6 @@ function Home(){
         
         <div>
             <body>
-                <Preloader />
                 <Header />
                 <HomeArea />
                 <ContactArea />

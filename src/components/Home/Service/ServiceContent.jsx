@@ -1,4 +1,5 @@
 import React from 'react'
+import './Service.css'
 
 function ServiceContent(props){
     
@@ -6,7 +7,8 @@ function ServiceContent(props){
         <div>    
 
             <h4 class="mt_20">{props.text}</h4>
-            <p class="mt_20">{props.paraText}</p>
+            <p class="mt_20">{props.paraText} {props.children}</p>
+            
 
         </div> 
     )

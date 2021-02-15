@@ -1,5 +1,4 @@
 import React from 'react'
-// import '../../style.css'
 import './Service.css'
 import ServiceContent from './ServiceContent'
 
@@ -31,11 +30,10 @@ function Service(){
                          <div class="content">
                                 <p class="mt_20">Precise Planning understands that success stems from well-established relationships with investors, consultants, government agencies, and landowners. Collaboration, partnership, and relationship are paramount to our approach in project management.</p>
                                 <p class="mt_20">We are excited to work you on your next project. If you would like to discuss your next development, reach out to us <a href="/#">here!</a></p>
-                        <ServiceContent text={textOne} paraText={paraTextOne}><a href="/#">here</a>.</ServiceContent>
-                        <ServiceContent text={textTwo} paraText={paraTextTwo}><a href="/#">here</a>.</ServiceContent>
-                        <ServiceContent text={textThree} paraText={paraTextThree} />
-                        <ServiceContent text={textFour} paraText={paraTextFour} />
-
+                                <ServiceContent text={textOne} paraText={paraTextOne}><a className="service-here" href="/#">here</a></ServiceContent>
+                                <ServiceContent text={textTwo} paraText={paraTextTwo}><a className="service-here" href="/#">here</a>.</ServiceContent>
+                                <ServiceContent text={textThree} paraText={paraTextThree} />
+                                <ServiceContent text={textFour} paraText={paraTextFour} />
                         </div> 
                         </div> 
                     </div>
