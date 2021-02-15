@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from "../components/layout"
 import '../components/helper.css'
 import '../components/style.css'
+import Preloader from "../components/Home/Preloader/Preloader"
 import Header from '../components/Home/Header/Header'
 import HomeArea from '../components/Development/HomeArea/HomeArea'
 import Application from '../components/Development/Application/Application'
@@ -14,14 +15,12 @@ import '../components/responsive.css'
 
 function Development(){
 
-    (function () {
-        
-        document.getElementById("home").classList.remove("active")
-        document.getElementById("develop").classList.add("active") 
-    })();
+    
 
     return (
+
         <Layout>
+            <Preloader />
             <Header />
             <HomeArea />
             <Application />
@@ -35,23 +34,3 @@ function Development(){
 }
 
 export default Development
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
